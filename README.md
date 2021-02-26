@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Overview
 Python exporter to query Prometheus time-series data (metrics) and send it to Graphite
 
