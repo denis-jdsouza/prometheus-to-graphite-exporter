@@ -14,6 +14,9 @@ replica.count;source=prometheus;kind=deployment;team=devops;app=web-02 11 161434
 Metrics sent for: 2 queries
 ```
 
+## Grafana Graph (Graphite)
+<img src="img/prom-to-graphite-exporter.png" width="750">
+
 ## Dependencies
 - Python v3.6
 - Prometheus endpoint should be accessible (http/https)
@@ -22,3 +25,6 @@ Metrics sent for: 2 queries
 
 ## Configuration
 This exporter can be run as a cronjob to fetch Prometheus time-series data on a regular interval
+
+## License
+Code released under the [MIT License](https://opensource.org/licenses/MIT)
